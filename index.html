@@ -71,22 +71,21 @@
                   <a
                     href="https://www.linkedin.com/in/rajsurya002/"
                     target="_blank"
-                    >Raj Surya Rajendran Kathirvel</a
-                  >,</span
-                >
+                    >Raj Surya Rajendran Kathirvel</a> • 
+                </span>
                 <span class="author-block">
                   <a
                     href="https://sites.google.com/umn.edu/zachsportfolio"
                     target="_blank"
-                    >Zach Chavis</a
-                  >,</span
-                >
+                    >Zach Chavis</a> • 
+                </span>
                 <span class="author-block">
-                  <a target="_blank">Stephen J. Guy</a>
-                  ,</span
-                >
+                  <a href="https://scholar.google.com/citations?user=aVg7BRwAAAAJ&hl=en&oi=ao"
+                  target="_blank">Stephen J. Guy</a> • 
+                </span>
                 <span class="author-block">
-                  <a target="_blank">Karthik Desingh</a>
+                  <a href="https://scholar.google.com/citations?user=zgezSpQAAAAJ&hl=en&oi=ao" 
+                  target="_blank">Karthik Desingh</a>
                 </span>
               </div>
 
@@ -128,45 +127,58 @@
                   </span>
 
                   
-                  <span class="link-block">
-                    <a
-                      href="https://github.com/YOUR REPO HERE"
-                      target="_blank"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
-                      <span class="icon">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span>Code</span>
-                    </a>
-                  </span>
-
+                  
                   
                   <span class="link-block">
                     <a
                       href="https://arxiv.org/abs/<ARXIV PAPER ID>"
-                      target="_blank"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
-                      <span class="icon">
-                        <i class="ai ai-arxiv"></i>
+                        target="_blank"
+                        class="external-link button is-normal is-rounded is-dark"
+                        >
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
                       </span>
                       <span>arXiv</span>
                     </a>
                   </span>
                 </div>  -->
+                
                 <span class="link-block">
                   <a
-                    href="https://openreview.net/pdf?id=cEeXF3FgPZ"
-                    target="_blank"
-                    class="external-link button is-normal is-rounded is-dark"
+                  href="https://sairlab.org/icra25/"
+                  target="_blank"
+                  class="external-link button is-normal is-rounded is-dark"
                   >
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
+                  <span class="icon">
+                      <i class="fas fa-chalkboard-teacher"></i>
                     </span>
-                    <span>openreview</span>
+                    <span>Workshop</span>
                   </a>
                 </span>
+                <span class="link-block">
+                  <a
+                  href="https://openreview.net/pdf?id=cEeXF3FgPZ"
+                  target="_blank"
+                  class="external-link button is-normal is-rounded is-dark"
+                  >
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a
+                  href="https://github.com/zachavis/sentmap-planning/"
+                  target="_blank"
+                  class="external-link button is-normal is-rounded is-dark"
+                >
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
               </div>
             </div>
           </div>
@@ -221,7 +233,7 @@
       <h2 class="title is-3 has-text-centered">Experiments</h2>
       <div class="columns is-centered">
         <div class="hero-body">
-          <figure class="image is-16by9">
+          <figure style="width: 90%; height: auto; margin-left: auto; margin-right: auto;">
             <img src="static/images/experiments.png" alt="Experiments Overview" />
           </figure>
         </div>
@@ -272,130 +284,293 @@
     </section>
     <!-- Results Section -->
     <section class="section hero is-light">
-      <div class="container is-max-desktop has-text-centered">
-        <h2 class="title is-3 has-text-centered">Results</h2>
+      
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
 
-        <!-- Results Table -->
-        <div class="table-container">
-          <table class="table is-striped is-bordered is-fullwidth is-centered has-text-centered">
-            
-              <thead>
-                <tr>
-                  <th rowspan="2">Model</th>
-                  <th colspan="4">Baseline</th>
-                  <th colspan="4">Semantic Enhancement</th>
-                </tr>
-                <tr>
-                  <th>Sponge</th>
-                  <th>Coffee</th>
-                  <th>Tissue</th>
-                  <th>Average</th>
-                  <th>Sponge</th>
-                  <th>Coffee</th>
-                  <th>Tissue</th>
-                  <th>Average</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Gemma 3 27B</td>
-                  <td>✓</td>
-                  <td>×</td>
-                  <td>✓</td>
-                  <td>66.7%</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>100%</td>
-                </tr>
-                <tr>
-                  <td>Gemini 2.0 Flash</td>
-                  <td>∅</td>
-                  <td>∅</td>
-                  <td>∅</td>
-                  <td>0.0%</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>100%</td>
-                </tr>
-                <tr>
-                  <td>Llama 3.1 8B</td>
-                  <td>×</td>
-                  <td>×</td>
-                  <td>✓</td>
-                  <td>33.3%</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>100%</td>
-                </tr>
-                <tr>
-                  <td>Llama 3.1 405B</td>
-                  <td>×</td>
-                  <td>×</td>
-                  <td>✓</td>
-                  <td>33.3%</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>100%</td>
-                </tr>
-                <tr>
-                  <td>GPT 4o mini</td>
-                  <td>×</td>
-                  <td>✓</td>
-                  <td>×</td>
-                  <td>33.3%</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>100%</td>
-                </tr>
-                <tr>
-                  <td>GPT o3 mini</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>×</td>
-                  <td>66.7%</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>✓</td>
-                  <td>100%</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td><em>Average</em></td>
-                  <td colspan="4">38.9%</td>
-                  <td colspan="4">100%</td>
-                </tr>
-              </tfoot>
-            </table>
-        </div>
+          <h2 class="title is-3 has-text-centered">Experimental Results</h2>
+          <br />
+          <h3 class="title is-3 has-text-centered">Various FMs</h3>
 
-        <!-- Videos Section -->
-        <div class="columns is-centered">
-          <div class="column is-half">
-            <h3 class="title is-4 has-text-centered">Get Coffee Task</h3>
-            <video controls muted autoplay loop>
-              <source src="static/videos/get_coffee_task.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-
-            <figure class="image is-16by9">
-              <img src="static/images/coffee_img.jpg" alt="Additional Image" />
-            </figure>
+          <!-- Results Table -->
+          <div class="table-container">
+            <table class="table is-striped is-bordered is-fullwidth is-centered has-text-centered">
+              
+                <thead>
+                  <tr>
+                    <th rowspan="2">Model</th>
+                    <th colspan="4">Baseline</th>
+                    <th colspan="4">Semantic Enhancement</th>
+                  </tr>
+                  <tr>
+                    <th>Sponge</th>
+                    <th>Coffee</th>
+                    <th>Tissue</th>
+                    <th>Average</th>
+                    <th>Sponge</th>
+                    <th>Coffee</th>
+                    <th>Tissue</th>
+                    <th>Average</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Gemma 3 27B</td>
+                    <td>✓</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>66.7%</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>100%</td>
+                  </tr>
+                  <tr>
+                    <td>Gemini 2.0 Flash</td>
+                    <td>∅</td>
+                    <td>∅</td>
+                    <td>∅</td>
+                    <td>0.0%</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>100%</td>
+                  </tr>
+                  <tr>
+                    <td>Llama 3.1 8B</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>33.3%</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>100%</td>
+                  </tr>
+                  <tr>
+                    <td>Llama 3.1 405B</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>33.3%</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>100%</td>
+                  </tr>
+                  <tr>
+                    <td>GPT 4o mini</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>×</td>
+                    <td>33.3%</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>100%</td>
+                  </tr>
+                  <tr>
+                    <td>GPT o3 mini</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>×</td>
+                    <td>66.7%</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>100%</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td><em>Average</em></td>
+                    <td colspan="4">38.9%</td>
+                    <td colspan="4">100%</td>
+                  </tr>
+                </tfoot>
+              </table>
           </div>
-          <div class="column is-half">
-            <h3 class="title is-4 has-text-centered">Get Tissue Task</h3>
-            <video controls muted autoplay loop>
-              <source src="static/videos/get_tissue_task.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <figure class="image is-16by9">
-              <img src="static/images/tissue_img.jpg" alt="Get Tissue Task Image" />
-            </figure>
+
+          <div class="content has-text-justified">
+            <p>
+              Task success across several FMs. A “✓” denotes task success, an “×” denotes task failure, and a “∅” denotes the model’s refusal to output a solution due to requiring additional context. Results indicate that semantic enhancement is critical for FMs to correctly localize objects and plan.
+            </p>
+          </div>
+
+          <br />
+
+          <h3 class="title is-3 has-text-centered">Indirect Tasks with Gemma 3 27B</h3>
+          
+          <div class="table-container">
+            <table class="table is-striped is-bordered is-fullwidth is-centered has-text-centered">
+              
+                <thead>
+                  <tr>
+                    <th rowspan="2">Task</th>
+                    <th colspan="2">Baseline</th>
+                    <th colspan="2">Semantic Enhancement</th>
+                  </tr>
+                  <tr>
+                    <th>Direct</th>
+                    <th>Indirect</th>
+                    <th>Direct</th>
+                    <th>Indirect</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Runny Nose</td>
+                    <td>✓</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                  <tr>
+                    <td>Watch TV</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                  <tr>
+                    <td>Private Listening</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                  <tr>
+                    <td>Sanitization</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                  <tr>
+                    <td>Call a friend</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                  <tr>
+                    <td>Flavor Coffee</td>
+                    <td>✓</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                </tbody>
+                <!-- <tfoot>
+                  <tr>
+                    <td><em>Average</em></td>
+                    <td colspan="4">38.9%</td>
+                    <td colspan="4">100%</td>
+                  </tr>
+                </tfoot> -->
+              </table>
+          </div>
+
+          <div class="content has-text-justified">
+            <p>
+              Direct-query and indirect-query task success for small foundation model. Gemma 3 27B was prompted with two types of queries, one directly asking for the objects, and one indirectly suggesting the object without naming it. 
+              Results indicate that semantic enhancement enables even a small FM to reason about complex tasks.
+            </p>
+          </div>
+
+          <br />
+
+
+
+          <h3 class="title is-3 has-text-centered">Human Semantic Enhancement with Gemma 3 27B</h3>
+          
+          <div class="table-container">
+            <table class="table is-striped is-bordered is-fullwidth is-centered has-text-centered">
+              
+                <thead>
+                  <tr>
+                    <th rowspan="2">Task</th>
+                    <th colspan="2">Semantic Enhancement</th>
+                    <th colspan="2">Semantic Enhancement w/ Ownership</th>
+                  </tr>
+                  <tr>
+                    <th>Direct</th>
+                    <th>Indirect</th>
+                    <th>Direct</th>
+                    <th>Indirect</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Store Bob's Leftovers in the Fridge</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                  <tr>
+                    <td>Get Bob his drink</td>
+                    <td>✓</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                  <tr>
+                    <td>Bring Bob's things to Alice</td>
+                    <td>✓</td>
+                    <td>×</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                  </tr>
+                </tbody>
+                <!-- <tfoot>
+                  <tr>
+                    <td><em>Average</em></td>
+                    <td colspan="4">38.9%</td>
+                    <td colspan="4">100%</td>
+                  </tr>
+                </tfoot> -->
+              </table>
+          </div>
+
+          
+
+          <div class="content has-text-justified">
+            <p>
+              Here, two people, Bob and Alice, were added to the SENT-Map. Gemma 3 27B was prompted with direct and indirect queries relating to Bob's belongings. 
+              We test over two SENT-Map configurations: one with basic Semantic Enhancement, and one with Semantic Enhancement + Ownership tagging. 
+              When ownership was not tagged, asking indirectly for objects Bob owns resulted in FM halucinations, where the model would confidently guess which items were Bob's, while having the tags available allowed the model to plan correctly.
+            </p>
+            <p>  
+              Results suggest that as FMs are not pre-trained to know the belongings of a person, we must guide their reasoning to prevent halucinations.
+            </p>
+          </div>
+
+          <br />
+
+          <!-- Videos Section -->
+          <div class="columns is-centered">
+            <div class="column is-half">
+              <h3 class="title is-4 has-text-centered">Get Coffee Task</h3>
+              <video controls muted autoplay loop>
+                <source src="static/videos/get_coffee_task.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+              <figure style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block;">
+                <img src="static/images/coffee_img.jpg" alt="Additional Image" />
+              </figure>
+            </div>
+            <div class="column is-half">
+              <h3 class="title is-4 has-text-centered">Get Tissue Task</h3>
+              <video controls muted autoplay loop>
+                <source src="static/videos/get_tissue_task.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <figure style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block;">
+                <img src="static/images/tissue_img.jpg" alt="Get Tissue Task Image" />
+              </figure>
+            </div>
           </div>
         </div>
       </div>
