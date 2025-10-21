@@ -58,9 +58,9 @@
   <body>
     <section class="hero">
       <div class="hero-body">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered">
-            <div class="column has-text-centered">
+      <div class="container is-max-desktop has-text-centered has-text-justified">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">
                 SENT-Map: Semantically Enhanced Topological Maps with Foundation
                 Models
@@ -188,8 +188,8 @@
 
     <!-- Teaser video-->
     <section class="hero teaser">
-      <div class="container is-max-desktop">
-        <div class="hero-body">
+      <div class="hero-body">
+      <div class="container is-max-desktop has-text-centered has-text-justified">
           <!-- <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
             <!-- Your video here -->
             <!-- <source src="static/videos/banner_video.mp4" type="video/mp4" /> -->
@@ -206,22 +206,19 @@
 
     <!-- Paper abstract -->
     <section class="section hero is-light">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-              <p>
-                We introduce SENT-Map, a semantically enhanced topological map for representing indoor environments, 
-                designed to support autonomous navigation and manipulation by leveraging advancements in foundational models (FMs). 
-                Through representing the environment in a JSON text format, we enable semantic information to be added and edited in a format that both humans and FMs understand, 
-                while grounding the robot to existing nodes during planning to avoid infeasible states during deployment. Our proposed framework employs a two stage approach, 
-                first mapping the environment alongside an operator with a Vision-FM, then using the SENT-Map representation alongside a natural-language query within an FM for planning. 
-                Our experimental results show that semantic-enhancement enables even small locally-deployable FMs to successfully plan over indoor environments.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="hero-body">
+      <div class="container is-max-desktop has-text-centered has-text-justified">
+      <h2 class="title is-3 has-text-centered">Abstract</h2>
+      <div class="content has-text-justified">
+        <p>
+          We introduce SENT-Map, a semantically enhanced topological map for representing indoor environments, 
+          designed to support autonomous navigation and manipulation by leveraging advancements in foundational models (FMs). 
+          Through representing the environment in a JSON text format, we enable semantic information to be added and edited in a format that both humans and FMs understand, 
+          while grounding the robot to existing nodes during planning to avoid infeasible states during deployment. Our proposed framework employs a two stage approach, 
+          first mapping the environment alongside an operator with a Vision-FM, then using the SENT-Map representation alongside a natural-language query within an FM for planning. 
+          Our experimental results show that semantic-enhancement enables even small locally-deployable FMs to successfully plan over indoor environments.
+        </p>
+      </div>
       </div>
     </section>
     <!-- End paper abstract -->
@@ -284,11 +281,9 @@
     </section>
     <!-- Results Section -->
     <section class="section hero is-light">
-      
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-
-          <h2 class="title is-3 has-text-centered">Experimental Results</h2>
+      <div class="hero-body">
+      <div class="container is-max-desktop has-text-centered has-text-justified">
+      <h2 class="title is-3 has-text-centered">Experimental Results</h2>
           <br />
           <h3 class="title is-3 has-text-centered">Various FMs</h3>
 
@@ -599,7 +594,7 @@
             </style>
 
           </div>
-        </div>
+      </div>
       </div>
     </section>
 
