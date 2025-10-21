@@ -550,7 +550,7 @@
 
           <!-- Videos Section -->
           <div class="columns is-centered">
-            <div class="column is-half">
+            <div class="column">
               <h3 class="title is-4 has-text-centered">Get Coffee Task</h3>
               <video controls muted autoplay loop>
                 <source src="static/videos/get_coffee_task.mp4" type="video/mp4" />
@@ -561,7 +561,17 @@
                 <img src="static/images/coffee_img.jpg" alt="Additional Image" />
               </figure>
             </div>
-            <div class="column is-half">
+            <div class="column">
+              <h3 class="title is-4 has-text-centered">Get Sponge Task</h3>
+              <video controls muted autoplay loop>
+                <source src="static/videos/get_sponge_task.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <figure style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block;">
+                <img src="static/images/sponge_img.jpg" alt="Get Sponge Task Image" />
+              </figure>
+            </div>
+            <div class="column">
               <h3 class="title is-4 has-text-centered">Get Tissue Task</h3>
               <video controls muted autoplay loop>
                 <source src="static/videos/get_tissue_task.mp4" type="video/mp4" />
@@ -571,6 +581,23 @@
                 <img src="static/images/tissue_img.jpg" alt="Get Tissue Task Image" />
               </figure>
             </div>
+
+            <style>
+              /* Force three equal columns and keep responsive behavior */
+              .columns.is-centered > .column.is-half,
+              .columns.is-centered > .column {
+              flex: 0 0 33.3333%;
+              max-width: 33.3333%;
+              }
+              @media (max-width: 768px) {
+              .columns.is-centered > .column.is-half,
+              .columns.is-centered > .column {
+                flex: 0 0 100%;
+                max-width: 100%;
+              }
+              }
+            </style>
+
           </div>
         </div>
       </div>
